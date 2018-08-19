@@ -25,7 +25,6 @@
     "settings": {
         "react": {
             "createClass": "createReactClass",
-
             "version": "^16.4.2",
             "flowVersion": "0.53"
         },
