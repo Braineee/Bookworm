@@ -32,9 +32,7 @@ class LoginForm extends React.Component {
     onSubmit = () => {
         const errors = this.validate(this.state.data);
         this.setState({ errors });
-        alert('it got here');
-        //console.log(errors);
-        //console.log(Object.keys(errors).length);
+
         /**
          * if there is no error
          * load call the submit
